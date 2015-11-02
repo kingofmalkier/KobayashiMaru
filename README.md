@@ -26,6 +26,8 @@ AWS Deploy
 ----------
 http://ec2-54-173-182-23.compute-1.amazonaws.com:8080/
 
+Username/password is the amazing default combo of me/password. Apparently the spring security folks weren't feeling too interesting when they came up with that pair.
+
 The demo console runs against my personal AWS account so there aren't many instances and most aren't running. Also, my apologies for the speed of the t1.micro webservers. Both frontend and backend are deployed in tomcat8 containers on some basic Linux AMIs, but they are not snappy.
 
 Running Locally
